@@ -29,6 +29,11 @@
                 "type": "font"
             },
             {
+                "file": "images/pelota.png",
+                "name": "IMAGES_PELOTA_PNG",
+                "type": "png"
+            },
+            {
                 "file": "images/miniPadelBall.png",
                 "menuIcon": true,
                 "name": "IMAGES_MINIPADELBALL_PNG",
@@ -48,22 +53,18 @@
                 "file": "images/check.png",
                 "name": "IMAGES_CHECK_PNG",
                 "type": "png"
-            },
-            {
-                "file": "images/pelota.png",
-                "name": "IMAGES_PELOTA_PNG",
-                "type": "png"
             }
         ]
     },
     "sdkVersion": "3",
     "shortName": "Paddle Time",
     "targetPlatforms": [
+        "aplite",
         "basalt"
     ],
     "uuid": "521774ea-27be-4855-9778-72293266fd6d",
     "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "1.1",
     "watchapp": {
         "hiddenApp": false,
         "watchface": false
