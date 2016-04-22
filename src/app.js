@@ -1,3 +1,8 @@
+/*
+ * Developed by Bitwinkel
+ */
+
+
 var UI = require('ui');
 var Vector2 = require('vector2');
 var Voice = require('ui/voice');
