@@ -59,7 +59,6 @@
     "sdkVersion": "3",
     "shortName": "Paddle Time",
     "targetPlatforms": [
-        "aplite",
         "basalt"
     ],
     "uuid": "521774ea-27be-4855-9778-72293266fd6d",
