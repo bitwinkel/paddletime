@@ -1,0 +1,72 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "javier.ruiz.alcaraz@gmail.com",
+    "longName": "Paddle Time",
+    "projectType": "pebblejs",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "name": "IMAGE_MENU_ICON",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/logo_splash.png",
+                "name": "IMAGE_LOGO_SPLASH",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/tile_splash.png",
+                "name": "IMAGE_TILE_SPLASH",
+                "type": "bitmap"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
+            },
+            {
+                "file": "images/miniPadelBall.png",
+                "menuIcon": true,
+                "name": "IMAGES_MINIPADELBALL_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/mic2.png",
+                "name": "IMAGES_MIC2_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/dimiss.png",
+                "name": "IMAGES_DIMISS_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/check.png",
+                "name": "IMAGES_CHECK_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/pelota.png",
+                "name": "IMAGES_PELOTA_PNG",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Paddle Time",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "521774ea-27be-4855-9778-72293266fd6d",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "hiddenApp": false,
+        "watchface": false
+    }
+}
