@@ -172,6 +172,7 @@ function showMainMenu(){
 		  if(Settings.data('team1') && Settings.data('team1')){
 			  team1 = Settings.data('team1');
 			  team2 = Settings.data('team2');
+			  matchType= Settings.data('matchType');
 		  }
 		  else{
 			  return;
@@ -631,6 +632,7 @@ function addPoints(team){
 		//service
 		if(serviceTeam==1){
 			servicePlayerTeam1 = matchType==1 ? 1 : servicePlayerTeam1==2 ? 1 : 2;
+			
 			matchBall.position(matchBallPosition.bottomRight);
 			if(servicePlayerTeam1==1){
 				serviceNameText.text(lang.service[iso] + team1.player1);
@@ -850,6 +852,7 @@ function resetSave(save){
 		team2.sets=0;
 		Settings.data('team1', team1);
 		Settings.data('team2', team2);
+		Settings.data('matchType',matchType);
 	}
 	
 	//Graphic elements
